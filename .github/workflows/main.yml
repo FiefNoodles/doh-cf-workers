@@ -30,7 +30,7 @@ jobs:
       - name: Deploy to Cloudflare Workers with Wrangler
         uses: cloudflare/wrangler-action@2.0.0
         with: 
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          apiToken: ${{ wpKl1Ij9pSyOLdvMz3N03L61NLw1h8hNYt3YDjnz }}
           command: publish
         env:
-          CLOUDFLARE_ACCOUNT_ID: ${{secrets.CLOUDFLARE_ACCOUNT_ID}}
+          CLOUDFLARE_ACCOUNT_ID: ${{4a5965381deafa1628b58e39367e7607}}
